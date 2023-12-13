@@ -16,7 +16,7 @@ const Todo = () => {
     const [stateManage, setStateManage] = useState(false);
     const descRef = useRef(null)
 
-    let domain = "https://todo-mern-3cld.vercel.app"
+    let domain = "https://ali-muhammad-todo-backend.vercel.app"
 
     // Fetch all the todo
     const fetchALLTodo = async () => {
